@@ -1,0 +1,8 @@
+- project:
+    check:
+      jobs:
+        - nodejs-build
+
+    gate:
+      jobs:
+        - nodejs-build
