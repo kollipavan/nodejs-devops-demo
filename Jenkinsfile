@@ -47,8 +47,8 @@ pipeline {
    //                 nohup node app.js > app.log 2>&1 &
    //             "
    //             '''
-            }
-        }
+   //         }
+   //     }
 
         stage('Validate') {
             steps {
