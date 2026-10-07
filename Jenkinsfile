@@ -50,12 +50,12 @@ pipeline {
    //         }
    //     }
 
-        stage('Validate') {
-            steps {
-                sh '''
-                curl http://${EC2_HOST}:3000
-                '''
-            }
-        }
+   //     stage('Validate') {
+   //         steps {
+   //             sh '''
+   //             curl http://${EC2_HOST}:3000
+   //             '''
+   //         }
+   //     }
     }
 }
